@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+header a{
+    text-decoration: none;
+        color: black;
+        padding:10px 15PX;
+        text-transform: capitalize;
+        font-size: 22px;
+
+}
+header .log{
+    background-color: red;
+    color: white;
+}
+header .log:hover{
+    background-color: silver;
+    color: black;
+
+}
+header .book{
+    background-color: silver;
+}
+.prag img{
+    position: relative;
+background-position:center ;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 100%;
+}
+main .schedule{
+    width: 40%;
+    background-color: #e2e2e2a1;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+}
+.schedule .h1{
+    background-color: red;
+    color: white;
+}
+.schedule h1{
+    padding: 15px 10px;
+}
+.schedule button{
+    padding: 10px 50px;
+        margin: 15px 0 13px 16px;
+        font-size: 15px;
+        background: #373535;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+}
+.schedule button:hover {
+    background-color: rgb(161, 160, 160);
+}
+.form1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.form1>div{
+    width: 45%;
+}
+.form1 input{
+    padding: 10px;
+   width: 100%;
+}
+section p {
+padding: 8px;
+    font-size: 23px
+}
+.input{
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+ justify-content: space-evenly;
+
+}
+.input-left,.input-right{
+    display: flex;
+width: 48%;
+}
+section .input-left div{
+width: 48%;
+padding: 0 8px;
+}
+section .input-right div {
+    width: 48%;
+    padding: 0 8px;
+}
+section input{
+    width: 100%;
+    height: 35px;
+}
+section .submit{
+    background-color: black;
+    color: white;
+}
+section .father-img{
+    width: 96%;
+    margin: auto;
+    display: flex;
+}
+section .img{
+    width: 100%;
+    padding: 10px 5px;
+}
+section .img h1{
+    font-size: 32px;
+        padding: 10px;
+        font-family: monospace;
+
+}
+section .img h5{
+    padding: 15px 20px;
+    font-size: 20px;
+    opacity: .6;
+}
+section .img h4 ,h6{
+    padding: 15px 20px;
+        font-size: 20px;
+}
+section .img p{
+    font-size: 15px;
+    padding: 15px 20px;
+}
+section .img button{
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 38px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+section .img button:hover{
+    background-color: silver;
+
+}
+section .pig{
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+section .pig .prag{
+    width: 60%;
+}
+.prag-img{
+    font-size: 18px;
+    word-spacing: 3px;
+}
+ section .pig .photo{
+filter: brightness(0.5)
+ }
+ section .social{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding: 30px 0;
+ }
+ section .social i{
+   color: red;
+ }
+ section .color-red{
+    width: 95%;
+    margin: auto;
+    height: 100px;
+    background-color: red;
+color: white;
+align-items: center;
+display: flex;
+ }
+  section .color-red >div p i{
+    background-color: rgb(135, 0, 0);
+    padding: 8PX 12PX;
+
+  }
+  section .bigg{
+    padding: 30px 0;
+    width: 98%;
+    margin: auto;
+    display: flex;
+  }
+  section .bigg .ox{
+    display: flex;
+    width: 50%;
+    padding: 0 3px;
+  }
+ section .bigg .ox .san{
+            padding: 0 5px ;
+            position: relative;
+
+}
+.bigg .ox .san span{
+position: absolute;
+    top: 82%;
+    left: 5%;
+    color: white
+}
+section .bi b{
+display: block;
+    padding: 10px;
+    font-size: 25px;
+}
+ .black{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+ .black .width90{
+    width: 97%;
+    margin: auto;
+ }
+ .black .width90 p{
+padding: 20px 0;
+    font-size: 33px;
+    word-spacing: 3px;
+ }
+.width90 h3 {
+display: block;
+    padding-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .width90 button{
+    font-size: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .width90 button:hover{
+    background: silver;
+
+
+  }
+ .contact{
+    width: 100%;
+    padding: 50px 0;
+  }
+ .contact h3{
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 0 20px;
+
+ }
+  .contact span{
+    display: block;
+        padding: 0 20px 3px;
+  }
+.contact p{
+        padding: 4px 20px;
+        font-size: 20px;
+}
+.contact p i{
+    color: red;
+    padding: 0 10px;
+}
+.contact .width90{
+    width: 97%;
+        margin: auto;
+}
+.contact .width90 .inp{
+    padding: 7px 0;
+}
+.contact .width90 .inp input{
+    padding: 23px 0;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+footer .soc{
+    display: block;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 22px;
+    cursor: pointer;
+}
+footer .soc i {
+    transition: 1s;
+    padding: 0 3px;
+    font-size: 25px;
+}
+footer .soc i:hover{
+    color: silver;
+    transform: rotate(30deg);
+}
+ .div{
+    clear: both;
+    width: 100%;
+}
+@media (min-width:600px){
+    body{
+            flex-wrap: wrap;
+        display: block;
+        width: 100% !important;
+    }
+}
+
+
+
+
